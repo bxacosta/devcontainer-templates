@@ -3,13 +3,13 @@
     "setupTasks": [
         {
             "name": "Installing Dependencies",
-            "command": "./gradlew build"
+            "command": "gradle build"
         }
     ],
     "tasks": {
         "run-app": {
             "name": "Run App",
-            "command": "./gradlew run",
+            "command": "gradle run",
             "runAtStart": true
         }
     }
