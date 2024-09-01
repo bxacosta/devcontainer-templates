@@ -1,6 +1,6 @@
 {
     "title": "Java + Gradle",
-    "description": "React Project Template with Vite, TypeScript, Tailwind CSS, and Prettier",
+    "description": "Java 21 Project Template with Gradle",
     "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
     "tags": ["bxacosta", "backend", "java", "gradle"],
     "published": true
