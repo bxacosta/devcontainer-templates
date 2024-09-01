@@ -1,5 +1,5 @@
 {
-    "$schema": "https://codesandbox.io/schemas/tasks.json",
+    "$schema": "https://codesandbox.io/p/schemas/tasks.json",
     "setupTasks": [
         {
             "name": "Installing Dependencies",
@@ -10,6 +10,7 @@
         "dev-server": {
             "name": "Start Dev Server",
             "command": "npm run dev",
+            "runAtStart": true,
             "preview": {
                 "port": 5173
             }
