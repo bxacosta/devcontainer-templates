@@ -1,0 +1,8 @@
+{
+    "name": "CodeSandbox Node.js",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+    "features": {
+        "ghcr.io/codesandbox/devcontainer-features/codesandbox:0.1.4": {}
+    },
+    "remoteUser": "root"
+}

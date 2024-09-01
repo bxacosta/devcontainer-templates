@@ -1,0 +1,7 @@
+{
+    "title": "React (TS) + Tailwind",
+    "description": "React Project Template with Vite, TypeScript, Tailwind CSS, and Prettier",
+    "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/64px-React-icon.svg.png",
+    "tags": ["tailwind", "frontend", "react", "vite", "javascript", "typescript"],
+    "published": true
+}
