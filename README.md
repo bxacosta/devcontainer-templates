@@ -20,9 +20,9 @@ React project working in Vite and Tailwind
 
 ## ToDo list
 
-- [] Spring boot template
-- [] Make templates compatible with [Google IDX](https://idx.dev/)
-- [] Make templates compatible with [Github Codespaces](https://github.com/features/codespaces)
+- [ ] Spring boot template
+- [ ] Make templates compatible with [Google IDX](https://idx.dev/)
+- [ ] Make templates compatible with [Github Codespaces](https://github.com/features/codespaces)
 
 ## Resources
 
