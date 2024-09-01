@@ -8,22 +8,12 @@
     ],
     "tasks": {
         "dev-server": {
-            "name": "Start Dev Server",
+            "name": "Dev Server",
             "command": "npm run dev",
             "runAtStart": true,
             "preview": {
                 "port": 5173
             }
-        },
-        "build-app": {
-            "name": "Build Application Bundle",
-            "command": "npm run build",
-            "runAtStart": false
-        },
-        "preview-build": {
-            "name": "Preview Application Bundle",
-            "command": "npm run preview",
-            "runAtStart": false
         }
     }
 }
