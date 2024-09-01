@@ -1,0 +1,16 @@
+{
+    "$schema": "https://codesandbox.io/p/schemas/tasks.json",
+    "setupTasks": [
+        {
+            "name": "Installing Dependencies",
+            "command": "./gradlew build"
+        }
+    ],
+    "tasks": {
+        "run-app": {
+            "name": "Run App",
+            "command": "./gradlew run",
+            "runAtStart": true
+        }
+    }
+}

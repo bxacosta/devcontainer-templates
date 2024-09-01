@@ -1,0 +1,23 @@
+{
+    "name": "CodeSandbox Java",
+    "image": "mcr.microsoft.com/devcontainers/java:1-21",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "redhat.java",
+                "vscjava.vscode-gradle",
+                "vscjava.vscode-java-test",
+                "vscjava.vscode-java-debug",
+                "vscjava.vscode-java-dependency"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/codesandbox/devcontainer-features/codesandbox:0.1.4": {},
+        "ghcr.io/devcontainers/features/java:1": {
+            "version": "none",
+            "installGradle": "true"
+        }
+    },
+    "remoteUser": "root"
+}
