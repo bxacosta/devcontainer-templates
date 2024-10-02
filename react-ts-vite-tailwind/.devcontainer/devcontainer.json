@@ -3,7 +3,7 @@
     "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
     "customizations": {
         "vscode": {
-            "extensions": ["esbenp.prettier-vscode"]
+            "extensions": ["esbenp.prettier-vscode", "bradlc.vscode-tailwindcss"]
         }
     },
     "features": {
