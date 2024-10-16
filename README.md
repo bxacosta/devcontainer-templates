@@ -1,6 +1,8 @@
 # Dev Container Templates
 
-This repository provides a collection of templates to quickly start diferent projects using development containers ([devcontainer](https://containers.dev/)).
+This repository provides a collection of templates to quickly start a projects using development containers ([devcontainer](https://containers.dev/)).
+Each Dev container configuration is in a specific branch with the corresponding service name.
+
 
 ## Contents
 
@@ -24,7 +26,7 @@ React project working in Vite and Tailwind
 - [ ] Make templates compatible with [Google IDX](https://idx.dev/)
 - [ ] Make templates compatible with [Github Codespaces](https://github.com/features/codespaces)
 
-## Resources
+## References
 
 - [Dev Container](https://containers.dev/)
 - [Dev Container Images](https://github.com/devcontainers/images)
