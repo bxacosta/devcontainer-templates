@@ -1,0 +1,27 @@
+name: Sync changes from main
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  branch_sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up git
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Update branch
+        run: |
+          git fetch origin
+          git checkout codesandbox
+          git merge main
+          git push origin
