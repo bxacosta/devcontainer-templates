@@ -1,0 +1,23 @@
+{
+  "$schema": "https://codesandbox.io/p/schemas/tasks.json",
+  "setupTasks": [
+    {
+      "name": "Installing Poetry",
+      "command": "pipx install poetry"
+    },
+    {
+      "name": "Installing Dependencies",
+      "command": "poetry install"
+    }
+  ],
+  "tasks": {
+    "dev-server": {
+      "name": "Dev Server",
+      "command": "poetry run flask run",
+      "runAtStart": true,
+      "preview": {
+        "port": 5000
+      }
+    }
+  }
+}

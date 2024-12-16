@@ -1,0 +1,7 @@
+{
+    "title": "Python Flask Server + Poetry",
+    "description": "Flask Server with Poetry",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+    "tags": ["bxacosta", "backend", "python", "poetry", "http-server"],
+    "published": true
+}
