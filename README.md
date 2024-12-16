@@ -20,6 +20,13 @@ React project working in Vite and Tailwind
 
 [![Edit in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://githubbox.com/bxacosta/devcontainer-templates/tree/codesandbox/react-ts-vite-tailwind)
 
+> ### [python-flask-poetry](./python-flask-poetry)
+
+Flask server with Poetry as dependency manager
+
+[![Edit in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://githubbox.com/bxacosta/devcontainer-templates/tree/codesandbox/python-flask-poetry)
+
+
 ## ToDo list
 
 - [ ] Spring boot template
