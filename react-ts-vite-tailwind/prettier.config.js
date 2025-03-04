@@ -1,12 +1,15 @@
 /** @type {import("prettier").Config} */
-
-const config = {
+export default {
   tabWidth: 2,
   printWidth: 120,
   endOfLine: "auto",
-  trailingComma: "es5",
   arrowParens: "avoid",
+  trailingComma: "es5",
   plugins: ["prettier-plugin-tailwindcss"],
+  overrides: [
+    {
+      files: "**/*.svg",
+      options: { parser: "html" },
+    },
+  ],
 };
-
-export default config;

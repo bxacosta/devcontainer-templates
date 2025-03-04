@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { FC, useState } from "react";
 
-function App() {
+export const App: FC = () => {
   const [count, setCount] = useState(0);
 
   return (
@@ -40,7 +40,7 @@ function App() {
           </div>
         </div>
 
-        <div className="pointer-events-none absolute left-[7%] top-0 opacity-50">
+        <div className="pointer-events-none absolute top-0 left-[7%] opacity-50">
           <svg width="1237" height="405" viewBox="0 0 1237 405" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter1)">
               <ellipse cx="618.5" cy="-213" rx="268.5" ry="268" fill="#48DCFF"></ellipse>
@@ -62,7 +62,7 @@ function App() {
             </defs>
           </svg>
         </div>
-        <div className="pointer-events-none absolute right-[7%] top-0 opacity-50">
+        <div className="pointer-events-none absolute top-0 right-[7%] opacity-50">
           <svg width="1237" height="405" viewBox="0 0 1237 405" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter2)">
               <ellipse cx="618.5" cy="-213" rx="268.5" ry="268" fill="#3935FB"></ellipse>
@@ -182,6 +182,4 @@ function App() {
       </div>
     </div>
   );
-}
-
-export default App;
+};

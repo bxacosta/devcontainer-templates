@@ -4,9 +4,9 @@ This project provides a minimal setup to get React working in Vite and Tailwind
 
 ## Features
 
-- React 18 with TypeScript
-- Tailwind CSS
-- Vite
+- React 19 with TypeScript
+- Tailwind CSS v4
+- Vite 6
 - Prettier
 - Eslint
 
